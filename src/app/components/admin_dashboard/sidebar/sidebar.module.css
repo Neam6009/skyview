@@ -1,0 +1,39 @@
+.container{
+    position: sticky;
+} 
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.userImage{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userData{
+    display: flex;
+    flex-direction: column;
+}
+
+.username{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.userTitle{
+    font-size: 1rem;
+}
+
+.list{
+    list-style: none;
+}
+
+.category{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+}

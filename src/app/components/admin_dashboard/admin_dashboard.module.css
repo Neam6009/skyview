@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+}
+
+.menu{
+    flex: 1;
+    padding: 0.5rem;
+    /* From https://css.glass */
+background: rgba(212, 246, 255, 1);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.4px);
+-webkit-backdrop-filter: blur(8.4px);
+border: 1px solid rgba(212, 246, 255, 0.59);
+
+}
+
+.Content{
+    flex:4;
+    padding: 0.5rem;
+}
