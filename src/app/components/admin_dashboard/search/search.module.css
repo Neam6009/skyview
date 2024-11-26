@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color: var(--background);
+    padding: 0.5rem;
+}
+
+.input{
+    background-color: transparent;
+    outline: none;
+}
+
+

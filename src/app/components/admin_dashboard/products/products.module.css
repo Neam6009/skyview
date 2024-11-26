@@ -1,0 +1,63 @@
+.container{
+    background-color: var(--foreground);
+    margin: 0.5rem 0rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addButton{
+    background-color: var(--hover);
+    color: var(--textHover);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    gap:1rem
+}
+
+.table{
+    width: 100%;
+}
+
+.table td{
+    padding: 0.5rem;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.productImage{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.button{
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 0rem 0.3rem;
+    
+}
+
+.view{
+    background-color: teal;
+}
+
+.delete{
+    background-color:crimson ;
+}
+

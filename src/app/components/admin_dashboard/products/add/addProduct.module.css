@@ -1,0 +1,40 @@
+.container{
+    background-color: var(--foreground);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form input, .form textarea, .form select{
+    padding: 0.5rem;
+    background-color: var(--background);
+    border-radius: 0.5rem;
+    margin: 1rem;
+    box-shadow: 0 4px 10px rgba(247, 245, 245, 0.1);
+}
+
+.form input{
+    width: 40%;
+}
+
+.form select{
+    width: 40%;
+}
+.form textarea{
+    width: 100%;
+}
+
+.form button{
+    padding: 0.5rem;
+    background-color: var(--hover);
+    color: var(--textHover);
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    width: 100%;
+}
