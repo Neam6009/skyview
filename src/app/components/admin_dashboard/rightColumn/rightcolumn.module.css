@@ -1,0 +1,55 @@
+.container{
+position: fixed;
+}
+
+.item{
+    position: relative;
+    background: linear-gradient(to top, var(--foreground), var(--background));
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+}   
+
+.bgContainer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+}
+.bg{
+    object-fit: contain;
+    opacity: 0.2;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.notification{
+    font-weight: bold;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 1.2rem;
+    
+}
+
+.button{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    background-color: var(--hover);
+    color: var(--textHover);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: max-content;
+}
+
+

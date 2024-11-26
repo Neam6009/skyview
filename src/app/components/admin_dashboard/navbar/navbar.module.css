@@ -2,5 +2,37 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem;
+    background-color: var(--foreground);
+    border-radius: 0.5rem;
+}
+
+.title{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color: var(--background);
     padding: 0.5rem;
+}
+
+.input{
+    background-color: transparent;
+    outline: none;
+}
+
+.icons{
+    display: flex;
+    gap: 0.5rem;
 }

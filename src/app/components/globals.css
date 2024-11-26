@@ -3,10 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --background: #FBFBFB;
-  --foreground: #D4F6FF;
-  --textColor: black;
-
+  --background: #1D2020;
+  --foreground: #111313;
+  --textColor: #c1c1c1;
+  --hover:#98E5DD;
+  --textHover:black;
+  --highlight:#eeb58f;
+  
 }
 
 /* @media (prefers-color-scheme: dark) {
