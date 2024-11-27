@@ -59,7 +59,7 @@ const Transactions = () => {
         </thead>
         <tbody>
           {transactionsContent.map(t  => (
-            <tr>
+            <tr key={t.name}>
             <td>
             <div className={classes.user}>
               <Image 
